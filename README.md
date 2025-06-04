@@ -1,18 +1,18 @@
-# 🗺️ Google Maps Route Planner (DSA Project)
+#  Google Maps Route Planner (DSA Project)
 
 **A GPS-based shortest path visualizer using real-world coordinates, Dijkstra's Algorithm, and Python graph libraries.**
 
 ---
 
-## 🚀 Project Overview
+##  Project Overview
 
 This project simulates a simplified version of **Google Maps routing**, where cities are represented as graph nodes with real GPS coordinates. The shortest path between two locations is computed using **Dijkstra’s Algorithm**, and the graph is visualized using `matplotlib` and `networkx`.
 
-> 🔍 Designed to showcase strong grasp of **DSA fundamentals**, particularly graphs, heaps, and real-world extensions like the **Haversine formula** for geospatial distance.
+>  Designed to showcase strong grasp of **DSA fundamentals**, particularly graphs, heaps, and real-world extensions like the **Haversine formula** for geospatial distance.
 
 ---
 
-## 🧠 Core CS Concepts Applied
+##  Core CS Concepts Applied
 
 | Concept                     | Description                                                                 |
 |-----------------------------|-----------------------------------------------------------------------------|
@@ -24,7 +24,7 @@ This project simulates a simplified version of **Google Maps routing**, where ci
 
 ---
 
-## 🌍 Real-World Extensions
+##  Real-World Extensions
 
 - 📍 **GPS Coordinates**: Nodes are actual cities defined using latitude and longitude.
 - 🧮 **Haversine Distance**: Edge weights reflect physical distances in kilometers.
@@ -32,7 +32,7 @@ This project simulates a simplified version of **Google Maps routing**, where ci
 
 ---
 
-## 🧪 Sample Nodes and Cities
+##  Sample Nodes and Cities
 
 | Node | City       | Coordinates          |
 |------|------------|----------------------|
@@ -45,7 +45,7 @@ This project simulates a simplified version of **Google Maps routing**, where ci
 
 ---
 
-## 🛠️ How It Works
+##  How It Works
 
 1. **Define Nodes**: Cities are added with their coordinates.
 2. **Connect Edges**: Using either Haversine-based or default weights.
